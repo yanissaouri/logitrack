@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+body{
+    background-color: #202122;
+}
+
+
+.delivery_status{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.transit {
+
+    border: #2196f3 solid 3px;
+
+}
+
+.delivered{
+
+    border: #4caf50 solid 3px;
+}
+
+.pending {
+    border: #ff9800 solid 3px;
+}
+
+.delayed{
+    border: #f44336 solid 3px;
+}
